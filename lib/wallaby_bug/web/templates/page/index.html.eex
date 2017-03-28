@@ -1,0 +1,8 @@
+<form>
+  <label for="field1">field</label>
+  <input id="field1" type="text" />
+  <br>
+
+  <label for="field2">field confirmation</label>
+  <input id="field2" type="text" />
+</form>

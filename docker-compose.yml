@@ -1,0 +1,11 @@
+version: "2"
+services:
+  web:
+    image: nobbz/phoenix
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/web
+    environment:
+      - DB_HOST=db
+    working_dir: /web
